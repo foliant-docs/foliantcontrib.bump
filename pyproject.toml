@@ -14,5 +14,7 @@ foliant = "^1.0"
 semver = "^2.8"
 
 [tool.poetry.dev-dependencies]
+pytest = "^3.5"
+pytest-datadir = "^1.0"
 pylint = "^2.0"
-"foliantcontrib.init" = "^1.0"
+foliant = "^1.0"
