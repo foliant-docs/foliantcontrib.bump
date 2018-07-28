@@ -16,7 +16,7 @@ class Cli(BaseCli):
             'version_part': 'Part of the version to bump: '
                             + 'major, minor, patch, prerelease, or build '
                             + '(default: patch).',
-            'project_path': 'Path to the directory with the config file (defalut: ".").',
+            'project_path': 'Path to the directory with the config file (default: ".").',
             'config_file_name': 'Name of the config file (default: "foliant.yml").'
         }
     )
