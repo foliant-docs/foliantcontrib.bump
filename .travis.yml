@@ -7,7 +7,6 @@ install:
   - poetry develop
 
 script:
-  - poetry run pytest
   - poetry run pylint foliant.cli.bump
 
 deploy:
