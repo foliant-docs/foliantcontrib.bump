@@ -4,11 +4,9 @@ python:
 
 install:
   - curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
-  - poetry develop
+  - poetry install
 
-script:
-  - poetry run pytest
-  - poetry run pylint foliant.cli.bump
+script: ''
 
 deploy:
   provider: script
